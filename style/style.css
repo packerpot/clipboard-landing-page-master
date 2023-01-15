@@ -16,9 +16,8 @@ p {
     color: hsl(201, 11%, 66%);
 }
 
-h1,
-h3,
-h5 {
+h2,
+h3 {
     color: hsl(210, 10%, 33%);
 }
 
@@ -44,7 +43,7 @@ header {
     margin: 0.5em;
 }
 
-.intro_part h1 {
+.intro_part h2 {
     font-weight: 600;
     font-size: 45px;
 }
@@ -93,7 +92,7 @@ header {
     text-align: center;
 }
 
-.short_info h1 {
+.short_info h2 {
     font-weight: 600;
     font-size: 35px;
 }
@@ -191,7 +190,7 @@ header {
     max-width: 380px;
 }
 
-.blacklists_box h5 {
+.blacklists_box h3 {
     font-size: 22px;
     font-weight: 600;
     padding: 5px 20px;
@@ -203,7 +202,7 @@ header {
     padding: 10px 20px;
 }
 
-.text_snippet_box h5 {
+.text_snippet_box h3 {
     font-size: 22px;
     font-weight: 600;
     padding: 10px 20px;
@@ -215,7 +214,7 @@ header {
     padding: 5px 20px;
 }
 
-.preview_box h5 {
+.preview_box h3 {
     font-size: 22px;
     font-weight: 600;
     padding: 5px 20px;
@@ -232,8 +231,8 @@ header {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    padding: 60px;
-    margin: 60px;
+    padding: 30px;
+    margin: 30px;
 }
 
 .comp_logo img {
@@ -250,7 +249,7 @@ header {
     padding: 30px;
 }
 
-.revise h1 {
+.revise h2 {
     font-weight: 600;
     font-size: 40px;
 }
