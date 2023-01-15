@@ -1,0 +1,364 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Bai Jamjuree;
+    font-size: 18px;
+}
+
+p {
+    line-height: 1.7;
+    color: hsl(201, 11%, 66%);
+}
+
+h1,
+h3,
+h5 {
+    color: hsl(210, 10%, 33%);
+}
+
+/*First section*/
+
+header {
+    background-image: url('../images/bg-header-desktop.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Front_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 7em;
+}
+
+.logo_mark {
+    max-width: 100%;
+    padding: 1em;
+    margin: 0.5em;
+}
+
+.intro_part h1 {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.intro_part p {
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0 10.6em 0 10.6em;
+    padding: 20px;
+}
+
+.download_btn .ios {
+    background: hsl(171, 66%, 44%);
+    font-family: Bai Jamjuree;
+    color: white;
+    font-weight: 600;
+    padding: 15px 50px;
+    font-size: 15px;
+    border-radius: 18.7em;
+    margin: 0px 10px;
+    box-shadow: 0px 5px 7px hsl(171, 66%, 90%);
+    border: none;
+    cursor: pointer;
+}
+
+.download_btn .mac {
+    background: hsl(233, 100%, 69%);
+    font-family: Bai Jamjuree;
+    color: white;
+    font-weight: 600;
+    padding: 15px 50px;
+    font-size: 15px;
+    border-radius: 18.7em;
+    margin: 5px 10px;
+    box-shadow: 0px 5px 7px hsl(233, 100%, 90%);
+    border: none;
+    cursor: pointer;
+}
+
+/*second section*/
+
+#mid_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.short_info h1 {
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.short_info_p {
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0 280px 0 280px;
+    padding: 20px;
+}
+
+.mid_section_bottom {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0px;
+}
+
+.mid_section_LHS {
+    margin-left: -30px;
+}
+
+.mid_section_RHS {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+.mid_section_bottom img {
+    max-width: 120%;
+}
+
+.mid_section_RHS h3 {
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px 20px;
+    margin-left: 190px;
+    margin-right: 190px;
+}
+
+.mid_section_RHS p {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 2px 20px 20px;
+    margin-left: 190px;
+    margin-right: 190px;
+}
+
+/* third section*/
+.bottom_down {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 3em 3em 0em 3em;
+    margin: 3em 3em 0em 3em;
+}
+
+.short_info_bt {
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0 200px 0 200px;
+    padding: 20px;
+}
+
+.mid_down_img {
+    max-width: 100%;
+    padding: 40px;
+    margin: 40px;
+}
+
+/*fourth section*/
+.quick_features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.quick_features img {
+    max-width: 100%;
+    padding: 30px;
+}
+
+.blacklists_box {
+    max-width: 380px;
+    padding-top: 20px;
+}
+
+
+.text_snippet_box,
+.preview_box {
+    max-width: 380px;
+}
+
+.blacklists_box h5 {
+    font-size: 22px;
+    font-weight: 600;
+    padding: 5px 20px;
+}
+
+.blacklists_box p {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+
+.text_snippet_box h5 {
+    font-size: 22px;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+
+.text_snippet_box p {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px 20px;
+}
+
+.preview_box h5 {
+    font-size: 22px;
+    font-weight: 600;
+    padding: 5px 20px;
+}
+
+.preview_box p {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px 20px;
+}
+
+.comp_logo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 60px;
+    margin: 60px;
+}
+
+.comp_logo img {
+    max-width: 100%;
+}
+
+/*fifth section*/
+.alert_again {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.revise h1 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.revise p {
+    font-weight: 600;
+    margin: 0 230px;
+    padding: 20px;
+}
+
+.download_btn_down {
+    padding: 10px;
+    margin: 10px;
+}
+
+.download_btn_down .ios {
+    background: hsl(171, 66%, 44%);
+    font-family: Bai Jamjuree;
+    color: white;
+    font-weight: 600;
+    padding: 15px 50px;
+    font-size: 15px;
+    border-radius: 18.7em;
+    margin: 0px 10px;
+    box-shadow: 0px 7px 10px 0px hsl(171, 66%, 90%);
+    border: none;
+    cursor: pointer;
+}
+
+.download_btn_down .mac {
+    background: hsl(233, 100%, 69%);
+    font-family: Bai Jamjuree;
+    color: white;
+    font-weight: 600;
+    padding: 15px 50px;
+    font-size: 15px;
+    border-radius: 18.7em;
+    margin: 5px 10px;
+    box-shadow: 0px 7px 10px 0px hsl(233, 100%, 90%);
+    border: none;
+    cursor: pointer;
+}
+
+.download_btn_down {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+/*sixth section*/
+.footer_about {
+    background: hsl(201, 11%, 97%);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_about img {
+    max-width: 50%;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+.footer_about p {
+    color: hsl(210, 10%, 33%);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.info {
+    display: flex;
+    align-self: center;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.first p,
+.second p,
+.third p {
+    padding: 5px 25px;
+    margin: 5px 25px;
+}
+
+.info p:hover {
+    color: hsl(171, 66%, 44%);
+    cursor: pointer;
+}
+
+.contact_platforms {
+    display: flex;
+    align-self: center;
+}
+
+.contact_platforms img {
+    max-width: 100%;
+    padding: 10px;
+}
+
+.download_btn_down .mac:hover {
+    color: black;
+}
+
+.download_btn_down .ios:hover {
+    color: black;
+}
+
+.download_btn .ios:hover {
+    color: black;
+}
+
+.download_btn .mac:hover {
+    color: black;
+}
