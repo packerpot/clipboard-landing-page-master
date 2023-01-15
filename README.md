@@ -1,4 +1,4 @@
-# clipboard-landing-page-master
+# Clipboard-landing-page-master
 
 Welcome! 👋 👋
 Thanks for checking out this front-end coding challenge.
